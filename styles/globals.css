@@ -1,16 +1,115 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
 
+body {
+  background: #f2f2f2;
+  color: #333;
+  font-family: "Nunito";
+}
 a {
-  color: inherit;
+  color: #333;
   text-decoration: none;
 }
+.content {
+  max-width: 2000px;
+  margin: 0 auto;
+}
+nav {
+  padding: 0px 0;
+  display: flex;
+  background-color: rgb(56, 135, 187);
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-bottom: 1px solid #ddd;
+}
+nav1 {
+  padding: 20px 0;
+  display: flex;
+  background-color: rgb(25, 92, 136);
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-bottom: 1px solid #ddd;
+}
 
-* {
-  box-sizing: border-box;
+nav2 {
+  display: flex;
+  margin-left: auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: rgb(252, 252, 252);
+  border-bottom: 1px solid #ddd;
+}
+
+nav3 {
+  display: flex;
+  margin-left: auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: rgb(252, 252, 252);
+  border-bottom: 1px solid #ddd;
+}
+
+nav4 {
+  padding: 20px 0;
+  display: flex;
+  margin-left: auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: rgb(252, 252, 252);
+  border-bottom: 1px solid #ddd;
+}
+
+nav5 {
+  display: flex;
+  margin-right: auto;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-color: rgb(252, 252, 252);
+  border-bottom: 1px solid #ddd;
+}
+
+
+
+nav2 a {
+  margin-left: 0px;
+  color: #f2f2f2;
+}
+
+nav3 a {
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+nav4 a {
+  margin-left: 30px;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+nav5 a {
+  margin-left: 0px;
+  color: #f2f2f2;
+}
+
+nav1 a {
+  margin-left: 12px;
+  color: #f2f2f2;
+}
+
+nav a {
+  margin-left: 12px;
+  color: #f2f2f2;
+}
+nav .logo {
+  margin-right: auto;
+}
+footer {
+  display: block;
+  text-align: right;
+  padding: 10px 0;
+  margin-top: 60px;
+  color: rgb(0, 0, 0);
+  border-top: 1px solid #eaeaea;
 }
