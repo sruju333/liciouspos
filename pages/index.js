@@ -49,3 +49,5 @@ const mapStateToProps = state => {
  
  export default connect(mapStateToProps, mapDispatchToProps)(Home)
 
+ //here we add state management for updating and storing value of form
+

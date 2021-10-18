@@ -8,3 +8,6 @@ export const setInfo = (name) => dispatch => {
     payload: name
   });
 }
+
+//Here we are dispatching an action
+//specifies the set name type with a new name value

@@ -15,3 +15,5 @@ const main = (state = {
 }
 
 export default main;
+
+//a reducer that will manage the main state of the app

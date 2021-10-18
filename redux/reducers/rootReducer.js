@@ -6,3 +6,5 @@ const rootReducer = combineReducers({
 })
 
 export default rootReducer;
+
+//combine all reducers into one. USEFUL when there are multiple reducers

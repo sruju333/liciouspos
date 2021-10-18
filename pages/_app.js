@@ -11,10 +11,3 @@ const MyApp = ({ Component, pageProps}) => (
 
 export default wrapper.withRedux(MyApp);
 
-//function MyApp({ Component, pageProps }) {
-//  return (
-   
-//  )
-//}
-
-//export default MyApp
